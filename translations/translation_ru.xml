@@ -220,20 +220,20 @@
 		<text name="CP_vehicle_courseGeneratorSetting_multiTools_tooltip"								text="Количество транспортных средств с одинаковым оборудованием на том же курсе." />
 
 		<!-- Vine Course Generator-->
-		<text name="CP_vehicle_vineCourseGeneratorSetting_title"										text="Vine course generator"/>
-		<text name="CP_vehicle_vineCourseGeneratorSetting_subTitle_basic"								text="Basic Settings"/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_title"										text="Генератор курса для виноградной лозы / оливкового сада"/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_subTitle_basic"								text="Основные настройки"/>
 
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_title"						text="Position of the course"/>
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_tooltip"						text="Should the course be driven on or beside the vine. This depends on the Tool. More Information in the help Menu."/>
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_left"						text="Left side of the vine"/>
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_center"						text="On the vine"/>
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_right"						text="Right side of the vine"/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_title"						text="Позиция курса"/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_tooltip"						text="Выбор стороны курса для виноградника (в зависимости от инструмента). Подробнее в меню справки."/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_left"						text="Слева от лозы"/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_center"						text="Курс по лозе"/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineCenterOffset_right"						text="Справа от лозы"/>
 
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineMultiTools_title"							text="Tools per course."/>
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineMultiTools_tooltip"						text="How many Tools can work together. More Information in the help Menu."/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineMultiTools_title"							text="Кол-во инструментов на курсе."/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineMultiTools_tooltip"						text="Сколько инструментов может работать одновременно. Подробнее в меню справки."/>
 		
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineRowsToSkip_title"							text="Vines to skip"/>
-		<text name="CP_vehicle_vineCourseGeneratorSetting_vineRowsToSkip_tooltip"						text="Skip vines should only be used, when the tool works on both vines (left and right)."/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineRowsToSkip_title"							text="Пропустить ряд"/>
+		<text name="CP_vehicle_vineCourseGeneratorSetting_vineRowsToSkip_tooltip"						text="Пропускать ряды если инструмент работает на оба ряда (Правый и левый)."/>
 
 
 
@@ -241,8 +241,8 @@
 		<text name="CP_global_setting_title"															text="Глобальные настройки CoursePlay"/>
 		<text name="CP_global_setting_subTitle_general"													text="Основные настройки"/>
 
-		<text name="CP_global_setting_expertModeActive_title" 											text="Expert mode "/>
-		<text name="CP_global_setting_expertModeActive_tooltip" 										text="Enables/disables expert mode with additional features."/>
+		<text name="CP_global_setting_expertModeActive_title" 											text="Режим эксперта"/>
+		<text name="CP_global_setting_expertModeActive_tooltip" 										text="Показать/скрыть настройки для опытных игроков"/>
 
 		<text name="CP_global_setting_wageModifier_title" 												text="Заработная плата работника"/>
 		<text name="CP_global_setting_wageModifier_tooltip" 											text="Заработная плата работника CoursePlay в процентах от заработной платы обычного рабочего."/>
@@ -254,11 +254,11 @@
 		<text name="CP_global_setting_autoRepair_less_than_70" 											text="&lt; 70%"/>
 		<text name="CP_global_setting_autoRepair_always" 												text="поддерживать в рабочем состоянии"/>
 
-		<text name="CP_global_setting_fuelThreshold_title" 												text="Fuel threshold"/>
-		<text name="CP_global_setting_fuelThreshold_tooltip" 											text="Driver will be released, if the fuel percentage is less."/>
+		<text name="CP_global_setting_fuelThreshold_title" 												text="Кол-во дозаправки топливом"/>
+		<text name="CP_global_setting_fuelThreshold_tooltip" 											text="Водитель прекратит работу если уровень равен или меньше значения"/>
 
-		<text name="CP_global_setting_brokenThreshold_title" 											text="Broken threshold"/>
-		<text name="CP_global_setting_brokenThreshold_tooltip" 											text="Driver will be released, if the vehicle or an implement is more broken. 100% is off."/>
+		<text name="CP_global_setting_brokenThreshold_title" 											text="Техническое состояние техники или инструмента"/>
+		<text name="CP_global_setting_brokenThreshold_tooltip" 											text="Водитель прекратит работу если уровень равен или меньше значения. 100% - отключает функцию."/>
 
 		<text name="CP_global_setting_subTitle_userSettings"											text="Пользовательские настройки"/>
 
